@@ -1,6 +1,6 @@
 // src/hooks/useAdvice.js
 import { useState, useEffect } from "react";
-import { getAdviceFromAPI } from "../axios";
+import { getAdviceFromAPI } from "../Axios";
 
 export function useAdvice() {
   const [advice, setAdvice] = useState("");
